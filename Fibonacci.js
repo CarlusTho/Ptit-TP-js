@@ -12,7 +12,6 @@ function Fibonacci (ite)
         console.log(somme);
         n = nplusun;
         nplusun = somme;
-        i++;
     }
 }
 
