@@ -18,13 +18,14 @@ function decoder(chaine)
 
                 if ((code >= 65) && (code <= 90))
                 {
-                    char = String.fromCharCode(((code - 65 + key)) % 26) + 65);
+                    char = String.fromCharCode(((code - 65 + key) % 26) + 65);
                 } else if ((code >= 97) && (code <= 122))
                 {
                     char = String.fromCharCode(((code - 97 + key) % 26) + 97);
                 }
 
                 res += char;
+            }
         }
         console.log(res);
     }
