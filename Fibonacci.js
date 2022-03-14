@@ -6,7 +6,7 @@ function Fibonacci (ite)
     let nplusun = 1;
     let somme;
     let i = 0;          // Initialisation des itérations
-    for (n = 0; i = ite; i++)
+    for (n = 0; i <= ite; i++)
     {
         somme = n + nplusun;
         console.log(somme);
